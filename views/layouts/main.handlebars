@@ -8,19 +8,24 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel=stylesheet  type = "text/css"
    href = "/css/preloader.css" />
+   <link rel=stylesheet  type = "text/css"
+    href = "/css/navbar.css" />
    <!-- END css -->
    <!-- JQuery -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
    <!-- END JQuery -->
 </head>
 <body>
-{{> preloader}}
-{{> navbar }}
+  <div id="container2">
+  {{> navbar }}
+</div>
+  {{> preloader}}
   {{{body}}}
 <script>
-$( ".container" ).fadeOut( 5500, function() {
-    // Animation complete.
+$( ".container" ).fadeOut( 7000, function() {
   });
+$("#container2").hide().fadeIn(5000);
+
 </script>
 </body>
 </html>
