@@ -13,6 +13,6 @@ app.get('/', (req, res) => {
   res.render('home', { msg: 'Hello World!' });
 })
 
-app.listen(3000, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
   console.log('PTG Museum on port 3000');
 })
