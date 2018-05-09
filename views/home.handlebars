@@ -3,6 +3,8 @@
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
 
+
+<!DOCTYPE html><html class=''>
 <head><script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script><script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script><meta charset='UTF-8'><meta name="robots" content="noindex"><link rel="shortcut icon" type="image/x-icon" href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" /><link rel="mask-icon" type="" href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" /><link rel="canonical" href="https://codepen.io/alexnoz/pen/brazWd?depth=everything&limit=all&order=popularity&page=12&q=slider&show_forks=false" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,8 +28,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-perspective: 1500px;
-          perspective: 1500px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
 }
@@ -392,10 +394,10 @@
 <div class="slider" id="slider" style="--img-prev:url(/img/Piano.jpeg)">
   <div class="slider__content" id="slider-content">
     <div class="slider__images">
-      <div class="slider__images-item slider__images-item--active" data-id="1"><img src="/img/Piano.jpeg"/></div>
-      <div class="slider__images-item" data-id="2"><img src="/img/Museum1.png"/></div>
-      <div class="slider__images-item" data-id="3"><img src="/img/Museum2.png"/></div>
-      <div class="slider__images-item" data-id="4"><img src="/img/Museum3.png"/></div>
+      <div class="slider__images-item slider__images-item--active" data-id="1"><img src="/img/Museum1.png"/></div>
+      <div class="slider__images-item" data-id="2"><img src="/img/Museum2.png"/></div>
+      <div class="slider__images-item" data-id="3"><img src="/img/Museum3.png"/></div>
+      <div class="slider__images-item" data-id="4"><img src="/img/ptg-logo.png"/></div>
       <div class="slider__images-item" data-id="5"><img src="https://lh3.googleusercontent.com/lqd5x1eNHsfzWpPeHNPe4u-ycQh1LyxWLp_mXi8tLvQGh4aNCbANfSfSWQdqhQy7c2J2V3a4dGIw6tRcMJCpFvsRrLLpXcFgHIjWpCWoxtgWC--0tMjb6W-YYKJX55zIhS1omxmSGPuQx1sZtsAL-XnRiqXbEIjGX1A_vbDObqVEc8TP3nVsraN5xLtektJbccNriwqqZ2CqpiuHagXKCRt3oa7D8N2ZygR-i04o8YP2pHr6I0Z76R6lZj1HDY65Sj-mkPJpN6nWKY-V_6htmMndJRY615MHntdsfZ82k5_IBbJXxdIN5MjJvgk41eyFXxzTKIXSGms-itEbW7FqMlZT8bIAigDoXYub9rh-FjtfdmVRVdwIIngzFzJrJQBroyHPxW9kW2JjH8foZCzX5YMStsHvfm1s4uAhZtbwK4KI_-x9GuXI3-cCUmtuFdQ-E2z_l3Hom57dasvYj6tFcqhRS9X_popdYTxR-4IeSE-NAjp71LDevvejtAqQTvpIRMFhV9um8qOb-xkPRe0xSoR6-chA2cQE--cbFJiLxe6ywBIqW6lI-aSI9Kv924s-OfRUGz0u=w1600-h766"/></div>
     </div>
     <div class="slider__text">
@@ -785,7 +787,7 @@ function autoSlide() {
     slider.next();
   });
 
-  timer = setTimeout(autoSlide, 10000);
+  timer = setTimeout(autoSlide, 5000);
 }
 
 function stopAutoSlide() {
@@ -798,7 +800,7 @@ function stopAutoSlide() {
 sliderEl.addEventListener('mousemove', stopAutoSlide);
 sliderEl.addEventListener('touchstart', stopAutoSlide);
 
-timer = setTimeout(autoSlide, 10000);
+timer = setTimeout(autoSlide, 2000);
 //# sourceURL=pen.js
 </script>
 </body></html>
