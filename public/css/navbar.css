@@ -1,7 +1,9 @@
 * {
 	box-sizing: border-box;
 }
-
+.container4{
+	height:100px
+}
 ul {
   margin: 0;
   padding: 0;
@@ -44,15 +46,27 @@ a {
 	font-size: .99em;
   text-decoration: none;
 }
-
+.main-nav a:visited{
+	color:#000000;
+}
 .main-nav a:hover {
 	color: #718daa;
 }
 
 
+/*======END ARTIST======*/
+a{
+	color:#000000;
+}
+h1{
+  text-transform:uppercase;
+  font-family:'Verdana';
+	color:#000000;
+}
+
 
 .header {
-	max-height: 100px;
+	height: 100%
 	padding-top: .5em;
 	padding-bottom: .5em;
 	border: 1px solid #a2a2a2;
@@ -65,6 +79,28 @@ a {
 	border-radius: 5px;
 }
 
+/
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
 
 /* =================================
   Media Queries
