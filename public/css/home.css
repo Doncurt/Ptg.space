@@ -2,18 +2,26 @@
  display: block;
  text-align: center;
  background-color: #000000;
-
+ clear:both;
 }
 .container-fluid{
-background-color: grey:
+background-color: #000000:
 margin:100px;
-padding-top: 70px;
-height: 300px;
+/*padding-top: 70px;*/
+height: 30%;
+display: block;
+clear:both;
+
 }
 /*=============
 UNSEEN ATRIST SECTION
 
 =============*/
+#unseen-artist{
+  display:block;
+  clear:both;
+  margin-bottom:30px;
+}
 h2 {
 		 font-size: 24px;
 		 text-transform: uppercase;
