@@ -12,6 +12,9 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   res.render('home', { msg: 'Hello World!' });
 })
+app.get('/index',(req,res)=>{
+  res.render('index');
+})
 app.get('/process',(req,res)=>{
   res.render('process');
 })
