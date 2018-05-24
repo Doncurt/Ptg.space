@@ -12,14 +12,12 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   res.render('home', { msg: 'Hello World!' });
 })
-app.get('/index',(req,res)=>{
-  res.render('index');
+
+app.get('/aknowledgements',(req,res)=>{
+  res.render('acknowledgements');
 })
-app.get('/process',(req,res)=>{
-  res.render('process');
-})
-app.get('/about',(req,res)=>{
-  res.render('about');
+app.get('/wiki',(req,res)=>{
+  res.render('wiki');
 })
 app.get('/deliverables',(req,res)=>{
   res.render('deliverables');

@@ -59,7 +59,21 @@ UNSEEN ATRIST SECTION
  /*============================================*/
 
  .unseen-artist > div:nth-child(2) :hover {
-   transition: transform 1s;
+transition: transform 2s;
 transform-style: preserve-3d;
-transform: perspective(400px) rotateX(-45deg);
+transform: perspective(400px) rotateY(360deg);
+}
+.home-unseen:hover{
+transition: 3s;
+transform-style: preserve-3d;
+transform:perspective(400px) rotateX(360deg)
+}
+
+/*  =================================*/
+/* MEDIA QUERIES */
+/* ================================== */
+@media screen and (max-width: 600px) {
+  .home-unseen {
+    margin:1.5em;
+  }
 }
