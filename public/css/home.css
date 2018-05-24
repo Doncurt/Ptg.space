@@ -15,7 +15,8 @@ UNSEEN ATRIST SECTION
   flex-direction:column;
   justify-content: center;
   height:600px;
-  background: #696969;
+  /* background: #696969; */
+   background:linear-gradient(135deg, #000, #ffffff 60%, #696969);
 }
 .unseen-artist>div{
   text-align:center;
@@ -66,7 +67,7 @@ transform: perspective(400px) rotateY(360deg);
 .home-unseen:hover{
 transition: 3s;
 transform-style: preserve-3d;
-transform:perspective(400px) rotateX(360deg)
+transform:perspective(400px) rotateX(360deg)scaleY(1.5);
 }
 
 /*  =================================*/

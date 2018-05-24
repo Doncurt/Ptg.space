@@ -1,0 +1,6 @@
+input[type=search] {
+  border: 1px dotted #999;
+  border-radius: 10px;
+
+  -webkit-appearance: none;
+}

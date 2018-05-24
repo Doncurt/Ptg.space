@@ -4,6 +4,7 @@ body,html {
      height: 100%;
   padding:0;
   margin: 0 auto;
+  box-sizing: content-box;
   /* max-width:100%; */
 }
 section{
