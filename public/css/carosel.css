@@ -63,7 +63,7 @@
 .slider__images {
   overflow: hidden;
   position: absolute;
-  width: 100%;
+  width: 90%;
   height: 100%;
   z-index: 0;
   box-shadow: 0 0 5em #000;

@@ -16,8 +16,16 @@ app.get('/', (req, res) => {
 app.get('/aknowledgements',(req,res)=>{
   res.render('acknowledgements');
 })
+const names =[
+  {name:"hanah"},
+  {name:"donovan"},
+  {name:"rocky"},
+  {name:"bobby"}
+]
 app.get('/wiki',(req,res)=>{
-  res.render('wiki');
+  console.log(req.query);
+  term =req.query.search_term;
+  res.render('wiki',{names});
 })
 app.get('/deliverables',(req,res)=>{
   res.render('deliverables');

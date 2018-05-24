@@ -1,6 +1,18 @@
-input[type=search] {
-  border: 1px dotted #999;
-  border-radius: 10px;
+.form-group {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  -webkit-appearance: none;
+
+
+@media screen and (max-width: 600px) {
+  .form-group{
+     flex-direction: column;
+    text-align:center;
+   }
+   .form-group>*{
+     margin-top:10px;
+   }
 }

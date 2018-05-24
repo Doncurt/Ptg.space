@@ -1,14 +1,16 @@
 <section>
-  <form class="form" action="/" method="get">
-    <div>
-      <div>
+  <form class="form" action="/wiki" method="get">
+    <div class="form-group">
       <label for="search_query">Search Wiki</label>
       <input type="search" id="search_query" name="search_query">
-      <div class="button">
     <button type="submit">Search</button>
-  </div>
     </div>
     </div>
 
 </form>
+{{# names}}
+<p>
+  {{name}}
+</p>
+{{/names}}
 </section>

@@ -11,6 +11,7 @@ UNSEEN ATRIST SECTION
 =============*/
 
 .unseen-artist{
+  padding-top: 30px;
   display:flex;
   flex-direction:column;
   justify-content: center;
@@ -25,12 +26,19 @@ UNSEEN ATRIST SECTION
   margin:1.5em;
 }
 /*PIANO GUILD IMG SECTION*/
-.unseen-artist > div:nthchild(2){
-  height: 50%;
-}
+/* .unseen-artist > div:nthchild(2){
+  height: :250px;
 
-.unseen-artist > div > img{
-  height:200px;
+} */
+#guild-img-container{
+  height:100%;
+  display:flex:
+}
+#guild-img-container>img{
+  height:65%;
+  width:50%;
+  border-radius:30px;
+  /* transform: scaleY(1.5); */
 }
 /*PIANO GUILD IMAGE END*/
 .home-unseen {
@@ -45,6 +53,7 @@ UNSEEN ATRIST SECTION
       font-size: 30px;
       margin: 15px 2px;
       box-shadow: 5px 10px;
+      font-family:'Quintessential';
     }
 
  h4 {
@@ -62,12 +71,12 @@ UNSEEN ATRIST SECTION
  .unseen-artist > div:nth-child(2) :hover {
 transition: transform 2s;
 transform-style: preserve-3d;
-transform: perspective(400px) rotateY(360deg);
+transform: perspective(400px) rotateY(360deg)scaleY(1.5);;
 }
 .home-unseen:hover{
 transition: 3s;
 transform-style: preserve-3d;
-transform:perspective(400px) rotateX(360deg)scaleY(1.5);
+transform:perspective(400px) rotateX(360deg)
 }
 
 /*  =================================*/
@@ -75,6 +84,11 @@ transform:perspective(400px) rotateX(360deg)scaleY(1.5);
 /* ================================== */
 @media screen and (max-width: 600px) {
   .home-unseen {
-    margin:1.5em;
+    /* margin:1.5em; */
+  }
+  #guild-img-container>img {
+      height: 50%;
+      width: 100%;
+      /* transform: scaleY(1.5); */
   }
 }
