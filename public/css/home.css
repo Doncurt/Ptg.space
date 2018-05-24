@@ -2,37 +2,64 @@
  display: block;
  text-align: center;
  background-color: #000000;
- clear:both;
+height:500px;
 }
-.container-fluid{
-background-color: #000000:
-margin:100px;
-/*padding-top: 70px;*/
-height: 30%;
-display: block;
-clear:both;
 
-}
 /*=============
 UNSEEN ATRIST SECTION
 
 =============*/
-#unseen-artist{
-  display:block;
-  clear:both;
-  margin-bottom:30px;
+
+.unseen-artist{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  height:600px;
+  background: #696969;
 }
-h2 {
-		 font-size: 24px;
-		 text-transform: uppercase;
-		 color: #303030;
-		 font-weight: 600;
-		 margin-bottom: 30px;
- }
+.unseen-artist>div{
+  text-align:center;
+}
+.text-wrap{
+  margin:1.5em;
+}
+/*PIANO GUILD IMG SECTION*/
+.unseen-artist > div:nthchild(2){
+  height: 50%;
+}
+
+.unseen-artist > div > img{
+  height:200px;
+}
+/*PIANO GUILD IMAGE END*/
+.home-unseen {
+      background-color: #F5F5F5;
+      border: none;
+      border-radius: 25px;
+      color: #000000;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 30px;
+      margin: 15px 2px;
+      box-shadow: 5px 10px;
+    }
+
  h4 {
 		 font-size: 16px;
 		 line-height: 1.375em;
 		 color: #303030;
 		 font-weight: 400;
 		 margin-bottom: 30px;
+
  }
+ /*==========================================*/
+ /*ANIMATION SECTION*/
+ /*============================================*/
+
+ .unseen-artist > div:nth-child(2) :hover {
+   transition: transform 1s;
+transform-style: preserve-3d;
+transform: perspective(400px) rotateX(-45deg);
+}
