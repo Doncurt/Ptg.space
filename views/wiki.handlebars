@@ -1,3 +1,8 @@
+
+<section>
+
+</section>
+
 <section>
   <form class="form" action="/wiki" method="get">
     <div class="form-group">
@@ -8,9 +13,11 @@
     </div>
 
 </form>
-{{# names}}
-<p>
-  {{name}}
-</p>
-{{/names}}
+<section id="results">
+  {{#each Wikiarticle}}
+  <article class="">
+    {{title}}
+    {{body}}
+  </article>
+  {{/each}}
 </section>
