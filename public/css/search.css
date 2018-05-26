@@ -6,6 +6,8 @@
 
 /* GRID SETUP */
   #results{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
     padding-top:10px;
   align-items: center;
   display: grid;
