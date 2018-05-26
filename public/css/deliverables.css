@@ -1,4 +1,10 @@
+/* Petit+Formal+Script|Quintessential|Dancing+Script|IBM+Plex+Mono|Gugi|Changa:300|Righteous|PT+Sans:400i" */
+
 #process-del{
   justify-content: center;
   text-align: center;
 }
+#process-del>h1{
+  font-family:'Petit Formal';
+}
+#process-del>h3
