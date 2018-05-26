@@ -50,7 +50,7 @@ color:#fff;
 header{
   flex-direction: column;
   text-align:center;
-  background: radial-gradient(grey,white);
+  /* background: radial-gradient(grey,white); */
 max-width:100%;
 }
 .home-btn{

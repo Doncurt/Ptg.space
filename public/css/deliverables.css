@@ -3,8 +3,13 @@
 #process-del{
   justify-content: center;
   text-align: center;
+  margin-bottom: 3%;
 }
 #process-del>h1{
-  font-family:'Petit Formal';
+  font-family:'Quintessential';
 }
-#process-del>h3
+#process-del>p{
+  margin:1.5em;
+
+}
+/* HERO IMAGE */
