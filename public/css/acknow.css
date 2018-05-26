@@ -50,6 +50,19 @@ section{
 #ack1{
   padding-top:20%;
 }
+#acknowhead>h2{
+  font-family:'Germania One';
+}
+#acknowhead>p{
+  margin-top:15px;
+  font-size:1.5em;
+  font-family: 'Quintessential';
+}
+#acknowhead>h4{
+font-family: 'Philosopher';
+  margin-left: 1.5em;
+  margin-right:1.5em;
+}
 #acknowhead{
   display:flex;
   flex-direction: column;
