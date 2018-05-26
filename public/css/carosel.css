@@ -5,6 +5,10 @@
   --mobile-bkp: 650px;
 }
 
+/* *, *::before, *::after {
+  box-sizing: border-box;
+} */
+
 
 
 .slider {
@@ -19,6 +23,7 @@
           transform-style: preserve-3d;
 }
 .slider::before, .slider::after {
+  margin:0.1em -1em;
   content: '';
   left: -1vw;
   top: -1vh;

@@ -19,9 +19,6 @@ app.get('/', (req, res) => {
 })
 
 app.get('/wiki',(req,res)=>{
-  console.log(req.query);
-  term =req.query.search_term;
-
   res.render('wiki',{Wikiarticle});
 })
 app.get('/deliverables',(req,res)=>{
