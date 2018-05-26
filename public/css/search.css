@@ -4,15 +4,61 @@
   flex-direction: row;
   justify-content: center;
 }
-
-
-
-@media screen and (max-width: 600px) {
-  .form-group{
-     flex-direction: column;
-    text-align:center;
-   }
-   .form-group>*{
-     margin-top:10px;
-   }
+#search-section{
+  text-align: center;
 }
+main{
+  display: flex;
+  justify-content: center;
+}
+
+
+/*  ========================*/
+/* WIKI RESULTS  */
+/* ============================== */
+
+/* GRID SETUP */
+  #results{
+  display: grid;
+  margin-left: 5%;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-flow: row;
+  }
+  /* GRID SET UP*/
+
+/* ITEM IN GRID SECTION */
+.demo-card-wide.mdl-card {
+/*  */
+}
+.demo-card-wide > .mdl-card__title {
+  color: #000000;
+  height: 176px;
+  background: url('../assets/demos/welcome_card.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+/*END GRID */
+
+
+
+  /*  ========================*/
+  /*END WIKI RESULTS  */
+  /* ============================== */
+
+  @media screen and (max-width: 600px) {
+    .form-group{
+       flex-direction: column;
+      text-align:center;
+     }
+     .form-group>*{
+       margin-top:10px;
+     }
+     #results{
+      display:inline-grid ;
+     }
+  }
