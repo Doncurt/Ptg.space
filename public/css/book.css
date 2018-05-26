@@ -72,7 +72,7 @@ whatever you want.*/
 whatever you want.*/
 .bookBottom {
   content: "";
-  height: 110px;
+  height: 50px;
   width: 300px;
   border: solid 1px black;
   border-top: solid 1px black;
@@ -221,4 +221,19 @@ whatever you want.*/
 }
 .secondPage>p{
   margin:0.75em;
+}
+.pagecontent>h2{
+  font-size: 1.8em;
+}
+.pagecontent>p{
+  margin:0.5em 1.2em;
+}
+.pagecontent>img{
+  max-height:220px;
+}
+#too-long{
+  max-height:200px;
+}
+.fourthPage>img{
+  margin:0 1em;
 }

@@ -35,12 +35,52 @@ newPage('.thirdPage');
 
 newPage('.fourthPage');
 
+newPage('.fifthPage');
 
+newPage('.sixthPage');
+
+newPage('.seventhPage');
+
+newPage('.eigthPage');
+newPage('.ninethPage');
+
+newPage('.tenthPage');
+
+newPage('.eleventhPage');
+
+newPage('.twelvethPage');
+newPage('.thirteenthPage');
+
+newPage('.fourteenthPage');
+
+newPage('.fifteenthPage');
+
+newPage('.sixteenthPage');
+
+newPage('.eighteenthPage');
+
+newPage('.nineteenthPage');
+
+newPage('.twentiethPage');
 
 //the last page of your book should have the bookBack class. This is what happens when you click it.
 $('.bookBack').on("click", function() {
 
   //rotate back every page in descending order here.
+  $('.twentiethPage').css('transform', 'rotateY(0deg)');
+  $('.nineteenthPage').css('transform', 'rotateY(0deg)');
+  $('.eighteenthPage').css('transform', 'rotateY(0deg)');
+  $('.sixteenthPage').css('transform', 'rotateY(0deg)');
+  $('.fifteenthPage').css('transform', 'rotateY(0deg)');
+  $('.fourteenthPage').css('transform', 'rotateY(0deg)');
+  $('.thirteenthPage').css('transform', 'rotateY(0deg)');
+  $('.twelvethPage').css('transform', 'rotateY(0deg)');
+  $('.eleventhPage').css('transform', 'rotateY(0deg)');
+  $('.tenthPage').css('transform', 'rotateY(0deg)');
+  $('.ninethPage').css('transform', 'rotateY(0deg)');
+  $('.eigthPage').css('transform', 'rotateY(0deg)');
+  $('.seventhPage').css('transform', 'rotateY(0deg)');
+  $('.sixthPage').css('transform', 'rotateY(0deg)');
   $('.fifthPage').css('transform', 'rotateY(0deg)');
   $('.fourthPage').css('transform', 'rotateY(0deg)');
   $('.thirdPage').css('transform', 'rotateY(0deg)');

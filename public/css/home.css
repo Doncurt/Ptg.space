@@ -18,6 +18,7 @@ UNSEEN ATRIST SECTION
   height:600px;
   /* background: #696969; */
    background:linear-gradient(135deg, #000, #ffffff 60%, #696969);
+   padding-bottom: 4em;
 }
 .unseen-artist>div{
   text-align:center;
