@@ -1,27 +1,27 @@
 module.exports = [
     {
         title:"1782 Buntebart Square Piano (London)",
-        body:"Hello happy doggy."
+        link:"http://my.ptg.org/foundation/museum/pianos/buntebart",
     },
     {
         title:"Laura Keene's Piano",
-        body:"Hey what's up."
+        link:"http://my.ptg.org/foundation/museum/pianos-on-exhibit/lincoln-chickering",
     },
     {
         title:"The Historical Piano at Ford’s Theatre",
-        body:"Great dog. Very wow."
+        link:"http://my.ptg.org/foundation/museum/pianos-on-exhibit/lincoln-chickering",
     },
     {
         title:"What is a Registered Piano Technician (RPT)?",
-        body:"I like turtles."
+        link:'http://www.ptg.org/document//121/',
     },
     {
         title:"Soufleto 'bridge' piano",
-        body:"I bought this dog, but the shipper never sent it.  Can I get a refund?"
+        link:"http://my.ptg.org/foundation/museum/pianos/soufleto"
     },
     {
-       title:"Title 6",
-        body:"This dog is great to dress up as a clown."
+       title:"The Piano Technicians Guild ",
+        link:"http://www.ptg.org/scripts/4disapi.dll/4DCGI/cms/review.html?Action=CMS_Document&DocID=18&MenuKey=Menu6",
     },
     {
         title:"Title 7",
